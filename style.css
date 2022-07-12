@@ -1,0 +1,35 @@
+@font-face {
+    font-family: customFont;
+    src: url("fonts/bpdots.ttf");
+}
+body{
+    background-color: black;
+}
+h1{
+    font-family: customFont;
+    color:lime;
+}
+.terminal{
+    font-family: customFont;
+    color:lime;
+}
+.terminalEntry{
+    font-size: larger;
+    font-weight: 700;
+    font-family: customFont;
+    color:lime;
+    background-color: black;
+    border: 0px;
+    transform: translate(162px,-39px);
+}
+.terminalHelp{
+    font-family: customFont;
+    color:black;
+    transform: translate(0px,-30px);
+}
+.entrBtn{
+    background-color: black;
+    color:black;
+    border-color:black;
+    border: 0px;
+}
