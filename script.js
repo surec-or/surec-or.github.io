@@ -12,9 +12,9 @@ input.addEventListener("keypress", function(event) {
   }else{
     document.getElementById("commandList").style.color="black";
     if (cmd.toUpperCase() === "PROJECTS"){
-      window.location = "subpages/projects/projects/"
+      window.location = "subpages/projects/"
     }else if (cmd.toUpperCase() === "LINKS"){
-      window.location = "subpages/links/links/"
+      window.location = "subpages/links/"
   }
   }
 }});
