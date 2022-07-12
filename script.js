@@ -1,6 +1,9 @@
 var input = document.getElementById("terminalEntry");
 var cmd;
 
+input.focus();
+input.select();
+
 input.addEventListener("keypress", function(event) {
   if (event.key === "Enter") {
     cmd = document.getElementById("terminalEntry").value;
