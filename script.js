@@ -18,6 +18,8 @@ input.addEventListener("keypress", function(event) {
       window.location = "subpages/projects/"
     }else if (cmd.toUpperCase() === "LINKS"){
       window.location = "subpages/links/"
-  }
+    }else if (cmd.toUpperCase() === "BLOG"){
+      window.location = "subpages/blog/"
+    }
   }
 }});
