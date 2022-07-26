@@ -1,6 +1,6 @@
 @font-face {
     font-family: customFont;
-    src: url("fonts/bpdots.ttf");
+    src: url("/fonts/bpdots.ttf");
 }
 body{
     background-color: black;
